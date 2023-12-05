@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio Local e Session Storage</title>
+
+    <script src="./assets/script.js" defer></script>
+
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <form>
+            <span id="previousName" class="hide"></span>
+            <label for="userName">Inserisci il tuo nome:</label>
+            <input type="text" id="userName" name="userName">
+            <button type="submit">Salva in Locale</button>
+            <button id="resetBtn" type="button">Resetta</button>
+        </form>
+
+        <div id="counter-container">
+            <p>Counter with <em>sessionStorage</em>:</p>
+            <p id="counter"></p>
+        </div>
+
+    </main>
+</body>
+
+</html>
